@@ -14,7 +14,7 @@ This is Logan Rado's submission of the takehome technical project. This Readme c
 - Start a MongoDB container:
 ```sh
 export MONGODB_VERSION=6.0-ubi8
-docker run --name mongodb-cupcakeapi -d -p 27017:27017 mongodb/mongodb-community-server:$MONGODB_VERSION
+docker run --name cupcake-db -d -p 27017:27017 mongodb/mongodb-community-server:$MONGODB_VERSION
 ```
 - Install dependencies via `npm i`
 - Run the seed script via `npm run seed`
