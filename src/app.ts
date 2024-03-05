@@ -3,7 +3,7 @@ import express from "express"
 import mongoose from 'mongoose'
 import { cupcakeRouter } from "./routes"
 
-mongoose.connect('mongodb://localhost:27027/cupcake-db').then(() => {
+mongoose.connect('mongodb://localhost:27017/cupcake-db').then(() => {
     console.log("Connected to MongoDB")
 })
 

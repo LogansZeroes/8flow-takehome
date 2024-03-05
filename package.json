@@ -4,6 +4,7 @@
   "description": "Take home technical project for 8Flow.ai",
   "main": "index.js",
   "scripts": {
+    "seed": "node src/seed/seed.js",
     "start": "ts-node-dev src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +13,7 @@
   "dependencies": {
     "body-parser": "^1.20.2",
     "express": "^4.18.3",
+    "mongo-seeding": "^4.0.0",
     "mongoose": "^8.2.1"
   },
   "devDependencies": {
